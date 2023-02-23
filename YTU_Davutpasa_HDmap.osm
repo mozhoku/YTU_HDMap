@@ -9707,6 +9707,7 @@
   <relation id="1612" visible="true" version="1">
     <member type="way" ref="1565" role="left" />
     <member type="way" ref="1611" role="right" />
+    <member type="relation" ref="4712" role="regulatory_element" />
     <tag k="location" v="urban" />
     <tag k="subtype" v="road" />
     <tag k="participant:vehicle" v="yes" />
@@ -28504,22 +28505,22 @@
     <tag k="subtype" v="road" />
     <tag k="participant:vehicle" v="yes" />
     <tag k="type" v="lanelet" />
-    <tag k="speed_limit" v="11.176" />
+    <tag k="speed_limit" v="30" />
   </relation>
-  <node id="4701" lat="41.0217822419619" lon="28.8882011184419" visible="true" version="1">
-    <tag k="x" v="220.2729" />
-    <tag k="y" v="-126.3682" />
-    <tag k="ele" v="66.90194" />
+  <node id="4701" lat="41.0217822271959" lon="28.8882011094906" visible="true" version="1">
+    <tag k="x" v="220.2722" />
+    <tag k="y" v="-126.3698" />
+    <tag k="ele" v="66.91483" />
   </node>
-  <node id="4702" lat="41.0217938590145" lon="28.888182313015" visible="true" version="1">
-    <tag k="x" v="218.6638" />
-    <tag k="y" v="-125.1127" />
-    <tag k="ele" v="66.8376" />
+  <node id="4702" lat="41.0217938549892" lon="28.8881823196147" visible="true" version="1">
+    <tag k="x" v="218.6644" />
+    <tag k="y" v="-125.1131" />
+    <tag k="ele" v="66.83764" />
   </node>
-  <node id="4703" lat="41.0218054771632" lon="28.8881635076129" visible="true" version="1">
-    <tag k="x" v="217.0547" />
-    <tag k="y" v="-123.8571" />
-    <tag k="ele" v="66.81586" />
+  <node id="4703" lat="41.0218054826125" lon="28.8881635315423" visible="true" version="1">
+    <tag k="x" v="217.0567" />
+    <tag k="y" v="-123.8564" />
+    <tag k="ele" v="66.80306" />
   </node>
   <way id="4704" visible="true" version="1">
     <nd ref="4701" />
@@ -28527,39 +28528,88 @@
     <nd ref="4703" />
     <tag k="type" v="stop_line" />
   </way>
-  <node id="4705" lat="41.021066165926" lon="28.887375498273" visible="true" version="1">
+  <node id="4705" lat="41.0217932829581" lon="28.8882396357781" visible="true" version="1">
+    <tag k="x" v="223.4849" />
+    <tag k="y" v="-125.0723" />
+    <tag k="ele" v="68.24177" />
+  </node>
+  <node id="4706" lat="41.0217883949814" lon="28.8882436610679" visible="true" version="1">
+    <tag k="x" v="223.8351" />
+    <tag k="y" v="-125.6077" />
+    <tag k="ele" v="68.24177" />
+  </node>
+  <way id="4707" visible="true" version="1">
+    <nd ref="4705" />
+    <nd ref="4706" />
+    <tag k="type" v="traffic_light" />
+    <tag k="subtype" v="red_yellow_green" />
+    <tag k="height" v="1.4964599609375" />
+  </way>
+  <node id="4708" lat="41.0217908390041" lon="28.8882416484241" visible="true" version="1">
+    <tag k="color" v="red" />
+    <tag k="x" v="223.66" />
+    <tag k="y" v="-125.34" />
+    <tag k="ele" v="69.39" />
+  </node>
+  <node id="4709" lat="41.0217908390041" lon="28.8882416484241" visible="true" version="1">
+    <tag k="color" v="yellow" />
+    <tag k="x" v="223.66" />
+    <tag k="y" v="-125.34" />
+    <tag k="ele" v="68.99" />
+  </node>
+  <node id="4710" lat="41.0217908390041" lon="28.8882416484241" visible="true" version="1">
+    <tag k="color" v="green" />
+    <tag k="x" v="223.66" />
+    <tag k="y" v="-125.34" />
+    <tag k="ele" v="68.59" />
+  </node>
+  <way id="4711" visible="true" version="1">
+    <nd ref="4708" />
+    <nd ref="4709" />
+    <nd ref="4710" />
+    <tag k="type" v="light_bulbs" />
+    <tag k="traffic_light_id" v="4707" />
+  </way>
+  <relation id="4712" visible="true" version="1">
+    <member type="way" ref="4704" role="ref_line" />
+    <member type="way" ref="4707" role="refers" />
+    <member type="way" ref="4711" role="light_bulbs" />
+    <tag k="subtype" v="traffic_light" />
+    <tag k="type" v="regulatory_element" />
+  </relation>
+  <node id="4713" lat="41.021066165926" lon="28.887375498273" visible="true" version="1">
     <tag k="x" v="152.574" />
     <tag k="y" v="-207.3675" />
     <tag k="ele" v="65.05749" />
   </node>
-  <node id="4706" lat="41.0210429966158" lon="28.8874085652158" visible="true" version="1">
+  <node id="4714" lat="41.0210429966158" lon="28.8874085652158" visible="true" version="1">
     <tag k="x" v="155.41" />
     <tag k="y" v="-209.8796" />
     <tag k="ele" v="65.11129" />
   </node>
-  <node id="4707" lat="41.0210351328676" lon="28.8873983811872" visible="true" version="1">
+  <node id="4715" lat="41.0210351328676" lon="28.8873983811872" visible="true" version="1">
     <tag k="x" v="154.5726" />
     <tag k="y" v="-210.7711" />
     <tag k="ele" v="65.09366" />
   </node>
-  <node id="4708" lat="41.0210577971315" lon="28.8873665774206" visible="true" version="1">
+  <node id="4716" lat="41.0210577971315" lon="28.8873665774206" visible="true" version="1">
     <tag k="x" v="151.8441" />
     <tag k="y" v="-208.3128" />
     <tag k="ele" v="65.05419" />
   </node>
-  <way id="4709" visible="true" version="1">
-    <nd ref="4705" />
-    <nd ref="4706" />
+  <way id="4717" visible="true" version="1">
+    <nd ref="4713" />
+    <nd ref="4714" />
     <tag k="type" v="speed_bump_marking" />
   </way>
-  <way id="4710" visible="true" version="1">
-    <nd ref="4707" />
-    <nd ref="4708" />
+  <way id="4718" visible="true" version="1">
+    <nd ref="4715" />
+    <nd ref="4716" />
     <tag k="type" v="speed_bump_marking" />
   </way>
-  <relation id="4711" visible="true" version="1">
-    <member type="way" ref="4709" role="left" />
-    <member type="way" ref="4710" role="right" />
+  <relation id="4719" visible="true" version="1">
+    <member type="way" ref="4717" role="left" />
+    <member type="way" ref="4718" role="right" />
     <tag k="participant:vehicle" v="yes" />
     <tag k="subtype" v="speed_bump" />
     <tag k="height" v="0.15" />
