@@ -9714,9 +9714,9 @@
     <tag k="type" v="lanelet" />
     <tag k="speed_limit" v="30" />
   </relation>
-  <node id="1613" lat="41.0218706477144" lon="28.8881995943492" visible="true" version="1">
-    <tag k="x" v="219.9324" />
-    <tag k="y" v="-116.5563" />
+  <node id="1613" lat="41.0218689226508" lon="28.8882024966423" visible="true" version="1">
+    <tag k="x" v="220.1805" />
+    <tag k="y" v="-116.7425" />
     <tag k="ele" v="66.89708" />
   </node>
   <node id="1614" lat="41.0218389728133" lon="28.8881696781161" visible="true" version="1">
@@ -9941,9 +9941,9 @@
     <tag k="subtype" v="solid" />
     <tag k="color" v="white" />
   </way>
-  <node id="1651" lat="41.0218942200611" lon="28.8881590901589" visible="true" version="1">
-    <tag k="x" v="216.4702" />
-    <tag k="y" v="-114.013" />
+  <node id="1651" lat="41.0218922359101" lon="28.8881634270868" visible="true" version="1">
+    <tag k="x" v="216.8396" />
+    <tag k="y" v="-114.2254" />
     <tag k="ele" v="66.8263" />
   </node>
   <node id="1652" lat="41.0218487585448" lon="28.8881173577555" visible="true" version="1">
@@ -28507,20 +28507,20 @@
     <tag k="type" v="lanelet" />
     <tag k="speed_limit" v="30" />
   </relation>
-  <node id="4701" lat="41.0217822271959" lon="28.8882011094906" visible="true" version="1">
-    <tag k="x" v="220.2722" />
-    <tag k="y" v="-126.3698" />
-    <tag k="ele" v="66.91483" />
+  <node id="4701" lat="41.0217649985105" lon="28.888181527665" visible="true" version="1">
+    <tag k="x" v="218.6671" />
+    <tag k="y" v="-128.3181" />
+    <tag k="ele" v="66.91138" />
   </node>
-  <node id="4702" lat="41.0217938549892" lon="28.8881823196147" visible="true" version="1">
-    <tag k="x" v="218.6644" />
-    <tag k="y" v="-125.1131" />
-    <tag k="ele" v="66.83764" />
+  <node id="4702" lat="41.021776626232" lon="28.8881627377884" visible="true" version="1">
+    <tag k="x" v="217.0593" />
+    <tag k="y" v="-127.0614" />
+    <tag k="ele" v="66.8342" />
   </node>
-  <node id="4703" lat="41.0218054826125" lon="28.8881635315423" visible="true" version="1">
-    <tag k="x" v="217.0567" />
-    <tag k="y" v="-123.8564" />
-    <tag k="ele" v="66.80306" />
+  <node id="4703" lat="41.0217882539177" lon="28.8881439499005" visible="true" version="1">
+    <tag k="x" v="215.4517" />
+    <tag k="y" v="-125.8047" />
+    <tag k="ele" v="66.79961" />
   </node>
   <way id="4704" visible="true" version="1">
     <nd ref="4701" />
